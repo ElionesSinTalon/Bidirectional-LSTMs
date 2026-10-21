@@ -34,9 +34,3 @@ El modelo utiliza una arquitectura de **doble rama** (Dual-Branch) procesada med
 * Las predicciones finales sobre el conjunto de test se guardaron exitosamente alineando cada par de noticia con su respectiva etiqueta textual original (`unrelated`, `agree`, `disagree`, `discuss`).
 
 """
-
-# Escribir el archivo README.md en el directorio de trabajo
-with open('README.md', 'w', encoding='utf-8') as f:
-    f.write(readme_content)
-
-print("Archivo README.md creado de manera exitosa en el entorno.")
